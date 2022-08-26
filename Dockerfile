@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY target/demo-0.0.1.jar /
+COPY target/mvn1-0.0.1-SNAPSHOT.jar /
 WORKDIR /
-CMD ["java", "-jar", "demo-0.0.1.jar"]
+CMD ["java", "-jar", "mvn1-0.0.1-SNAPSHOT.jar"]
