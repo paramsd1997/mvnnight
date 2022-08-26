@@ -10,5 +10,12 @@ public class Param {
 public String newone() {
 		return "Hello boss";
 	}
-	
+	@GetMapping("/hello1")
+public String newone() {
+		return "How Are You";
+	}
+	@GetMapping("/hello2")
+public String newone() {
+		return " I Am Good ";
+	}
 }
